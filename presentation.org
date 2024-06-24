@@ -126,7 +126,7 @@ communications at NEA.
 
 ** Two countries separated by a common language
 
-#+ATTR_HTML: :height 20%
+#+ATTR_HTML: :height 200px
 [[./img/GBS.jpeg]]
 
 - /On your *mark*, get set, go!/ (USA)
@@ -154,11 +154,17 @@ communications at NEA.
 - **P** retrained
 - **T** ransformer
 
+
+** Pulling back the curtain
+
+#+ATTR_HTML: :height 40%
+[[./img/woz.jpeg]]
+
 ** Quick Overview: What is a GPT?
 
 - Why is it important to understand something about how they work?
 
-#+ATTR_HTML: :width 50%
+#+ATTR_HTML: :height 300px
 [[./img/car.jpg]]
 
 - We drive cars and most of us have little to no understanding of how they work
@@ -166,7 +172,7 @@ communications at NEA.
 
 ** Quick Overview: What is a GPT?
 
-#+ATTR_HTML: :width 50%
+#+ATTR_HTML: :height 300px
 [[./img/car.jpg]]
 
 - **BUT**... no one is claiming that cars are SENTIENT, INTELLIGENT,
@@ -349,16 +355,40 @@ communications at NEA.
 
 ** Attention
 
-#+ATTR_HTML: :width 80%
+#+ATTR_HTML: :width 60%
+[[./img/attention.gif]]
+
+
+
+** Attention
+
+#+ATTR_HTML: :width 60%
 [[./img/attention.png]]
 
 ** Attention
 
-#+ATTR_HTML: :width 80%
+#+ATTR_HTML: :width 60%
 [[./img/attention2.png]]
 
+* So back to /TALKING *WITH* AI/
 
+#+ATTR_HTML: width: 80%
+[[./img/background.jpeg]]
 
 * Some tools
 
 
+* https://chat.lmsys.org/
+
+#+ATTR_HTML: :width 40%
+[[./img/qr/lmsys_QR.png]]
+
+
+* Some tools
+
+- GPT OpenAI
+- Google Gemini
+- Meta meta.ai
+- Anthropic Claude
+
+  
