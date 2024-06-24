@@ -126,8 +126,8 @@ communications at NEA.
 
 ** Two countries separated by a common language
 
-[[#+ATTR_HTML: :height 200px
-./img/GBS.jpeg]]
+#+ATTR_HTML: :height 20%
+[[./img/GBS.jpeg]]
 
 - /On your *mark*, get set, go!/ (USA)
 - /On your *marks*, get set, go!/ (UK)
@@ -222,30 +222,142 @@ communications at NEA.
 
 - Try a cat/dog classifier
 
-https://huggingface.co/spaces/jph00/testing
+- [[https://huggingface.co/spaces/jph00/testing]]
   
-#+ATTR_HTML: :height 40%
+#+ATTR_HTML: :width 40%
 [[./img/qr/cat_or_dog_QR.png]]
+
+*** Cat or dog?
+
+#+ATTR_HTML: :width 80%
+[[./img/classify/cat_dog_cat1.png]]
+
+
+*** Cat or dog?
+
+#+ATTR_HTML: :width 80%
+[[./img/classify/cat_dog_rufus.png]]
+
+
+*** Cat or dog?
+
+#+ATTR_HTML: :width 80%
+[[./img/classify/cat_dog_cat_yawn.png]]
+
+
+*** Cat or dog?
+
+#+ATTR_HTML: :width 80%
+[[./img/classify/cat_dog_cat_petting.png]]
+
+
+*** Cat or dog?
+
+#+ATTR_HTML: :width 80%
+[[./img/classify/cat_dog_mbod.png]]
+
+
 
 *** What kind of dog (or cat)?
 
 - Try a pet breed classifier
 
-https://huggingface.co/spaces/jph00/pets
+- [[https://huggingface.co/spaces/jph00/pets]]
   
-#+ATTR_HTML: :height 40%
+#+ATTR_HTML: :width 40%
 [[./img/qr/breed_classifier_QR.png]]
 
 
-** Generative
 
-** Pretrained
+*** What kind of dog (or cat)?
 
-** Transformer
+#+ATTR_HTML: :width 80%
+[[./img/classify/pet_rufus1.png]]
+
+
+
+*** What kind of dog (or cat)?
+
+#+ATTR_HTML: :width 80%
+[[./img/classify/pet_rufus2.png]]
+
+
+
+*** What kind of dog (or cat)?
+
+#+ATTR_HTML: :width 80%
+[[./img/classify/pet_GS.png]]
+
+
+
+*** What kind of dog (or cat)?
+
+#+ATTR_HTML: :width 80%
+[[./img/classify/pet_cat1.png]]
+
+
+
+*** What kind of dog (or cat)?
+
+#+ATTR_HTML: :width 80%
+[[./img/classify/pet_cat2.png]]
+
+
+*** What kind of dog (or cat)?
+
+#+ATTR_HTML: :width 80%
+[[./img/classify/pet_mbod.png]]
+
+
+
+*** What kind of dog (or cat)?
+
+#+ATTR_HTML: :width 80%
+[[./img/classify/pet_car.png]]
+
+
+** Neural Network
+
+- Parameters
+
+[[./img/params.png]]
+
+
+* GPT: Generative
+
+- Next word prediction
+- Can produce **NEW** text it has never seen
+- High level of fidelity to human communication
+  - Arguably passes the Turing Test
+
+* GPT: Pretrained
+
+- Neural network exposed to **TRILLIONS** of /words/
+- The whole internet, archives of books, documents, images, etc etc.
+
+* GPT: Transformer
 
 - **ATTENTION**
+- Focuses on words and patterns in context that are the most relevant to /understanding/
+- Combinations (associations) of:
+  - words
+  - grammar
+  - genre
+  - emotion
+  - reference
+  - etc.
 
-  
+** Attention
+
+#+ATTR_HTML: :width 80%
+[[./img/attention.png]]
+
+** Attention
+
+#+ATTR_HTML: :width 80%
+[[./img/attention2.png]]
+
+
 
 * Some tools
 
