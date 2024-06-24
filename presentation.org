@@ -123,14 +123,17 @@ communications at NEA.
 
 * /On your mark, get/...
 
+
 ** Two countries separated by a common language
+
+[[#+ATTR_HTML: :height 200px
+./img/GBS.jpeg]]
 
 - /On your *mark*, get set, go!/ (USA)
 - /On your *marks*, get set, go!/ (UK)
 
-[[./img/GBS.jpeg]]
 
-* /Dearly beloved we/...
+* /Dearly beloved we are/...
 
 * /The concept dates back at least to/... 
 
@@ -140,7 +143,7 @@ communications at NEA.
 
 - A large part of our COMMUNICATIVE INTELLIGENCE
 
-- We learn these patterns over time as we are exposed to language across context
+- We learn these patterns over time as we are exposed to language across contexts
 
 - And we reproduce and extend them when we come to communicate
 
@@ -166,11 +169,13 @@ communications at NEA.
 #+ATTR_HTML: :width 50%
 [[./img/car.jpg]]
 
-- **BUT**... no one is claiming that cars are sentient, intelligent, self-determining, etc.
+- **BUT**... no one is claiming that cars are SENTIENT, INTELLIGENT,
+  SELF-DETERMINING, and a threat to human existence etc.
 
 - If they did, having an understanding of the mechanics of a car would
   allow you to refute or strongly question these claims
 
+  
 ** Quick Overview: What is a GPT?
   
 #+ATTR_REVEAL: :frag (appear)
@@ -188,7 +193,7 @@ communications at NEA.
   
 - Find **FEATURES** in image that are most helpful in distinguishing
   - between cat and dog
-  - or a Bulldog and a German shepherd
+  - or a Bulldog and a German Shepherd
 
 ** Machine Learning
 
@@ -210,21 +215,25 @@ communications at NEA.
 
 ** Neural Network
 
-#+ATTR_HTML: :width 60%
+#+ATTR_HTML: :width 80%
 [[./img/neural_net.png]]
 
 *** Cat or dog?
 
 - Try a cat/dog classifier
 
-#+ATTR_HTML: :height 50%
+https://huggingface.co/spaces/jph00/testing
+  
+#+ATTR_HTML: :height 40%
 [[./img/qr/cat_or_dog_QR.png]]
 
 *** What kind of dog (or cat)?
 
 - Try a pet breed classifier
 
-#+ATTR_HTML: :height 50%
+https://huggingface.co/spaces/jph00/pets
+  
+#+ATTR_HTML: :height 40%
 [[./img/qr/breed_classifier_QR.png]]
 
 
@@ -239,4 +248,5 @@ communications at NEA.
   
 
 * Some tools
+
 
