@@ -1,0 +1,242 @@
+#+Title: Talking with AI
+#+Subtitle: The transformative nature and challenges of AI-generated communication
+#+Author: Matthew Brook O'Donnell
+#+Text: Annenberg School for Communication, UPenn
+#+Email: mbod@asc.upenn.edu
+#+Date: Seacomm2024 (Monday June 24)
+
+
+#+REVEAL_INIT_OPTIONS: width:1200, height:800, margin: 0.1, minScale:0.2, maxScale:2.5, transition:'page'
+#+REVEAL-SLIDE-NUMBER: f
+#+OPTIONS: toc:nil num:nil timestamp:nil titleslide:nil
+#+OPTIONS: subauthor: t
+#+REVEAL_THEME: moon
+#+REVEAL_HLEVEL: 1
+#+REVEAL_HEAD_PREAMBLE: <meta name="description" content="SEACOMM2024 - Talking with AI">
+#+REVEAL_POSTAMBLE: <p> Created by mbod. </p>
+#+REVEAL_PLUGINS: (markdown notes)
+#+REVEAL_EXTRA_CSS: ./local.css
+#+REVEAL_TITLE_SLIDE: <h1>%t</h1><h3 class="light italic">%s</h3><h3>%a, Ph.D.</h3><h4>Annenberg School for Communication, UPenn<br>%e</h4>
+#+REVEAL_TITLE_SLIDE_BACKGROUND: img/background.jpeg
+
+
+
+
+* About me...
+
+#+REVEAL_HTML: <div><img src="img/mbod.png" width="200px"/><img src="img/mbod_dalle.png" width="200px"/></div>
+
+
+
+- Lecturer in **Communication** focusing on data science and AI
+- Background in computational **linguistics**
+- A dog person!
+
+
+#+BEGIN_NOTES
+  Enter speaker notes here.
+
+  DALL·E 2024-06-23 21.34.59 - Create a cartoon avatar of a bald man
+  with fair skin, smiling and wearing a striped shirt. The avatar
+  should have round facial features and be friendly
+  
+#+END_NOTES
+
+
+** About me
+
+#+ATTR_HTML: :width 600px
+[[./img/rufus/rufus.png]]
+
+* About you...
+
+#+ATTR_HTML: :height 300px
+[[./img/seacomm_members.png]]
+
+- Employed by NEA state/local affiliates
+- Focus on internal/external communications
+- Are you a cat or a dog person?
+
+
+#+BEGIN_NOTES
+create 2 bullet points of 5-7 words each summarizing the following
+members: The members of State Education Association Communicators
+(SEAComm) are employed by state affiliates of the National Education
+Association (NEA) with primary assignments in internal and/or external
+communication. Membership also includes communications staff of local
+affiliates of NEA, staff of state or local affiliates whose duties
+include internal/external communication, and staff who work in
+communications at NEA.
+#+END_NOTES
+
+** About you
+
+- Create an image that represents the following people: 
+
+#+REVEAL_HTML: <blockquote>The members of State Education Association Communicators (SEAComm) are employed by state affiliates of the National Education Association (NEA) with primary assignments in internal and/or external communication. Membership also includes communications staff of local affiliates of NEA, staff of state or local affiliates whose duties include internal/external communication, and staff who work in communications at NEA.</blockquote>
+
+
+** About you
+
+- GPT4o
+
+#+ATTR_HTML: :height 600px
+[[./img/seacomm_members.png]]
+
+** About you
+
+- meta.ai
+
+#+ATTR_HTML: :height 600px
+[[./img/seacomm_members2.jpeg]]
+
+
+** About you
+
+- Create 2 bullet points of 5-7 words each summarizing the following members:
+
+#+REVEAL_HTML: <blockquote>The members of State Education Association Communicators (SEAComm) are employed by state affiliates of the National Education Association (NEA) with primary assignments in internal and/or external communication. Membership also includes...</blockquote>
+
+- **Employed by NEA state/local affiliates**
+- **Focus on internal/external communications**
+
+
+* About you and me
+
+#+ATTR_REVEAL: :frag (appear)
+- Lifetime posessors experts in HCI
+  - **H** uman
+  - **C** ommunicative
+  - **I** ntelligence
+
+- Human GPTs!
+  - **G** enerative
+  - **P** retrained
+  - **T** ransformer
+
+- That is to say we are **REALLY REALLY GOOD** at communication!
+
+  
+* /Once upon a time there was a/...
+
+* /Today's talk is brought to you by the letter G/...
+
+* /On your mark, get/...
+
+** Two countries separated by a common language
+
+- /On your *mark*, get set, go!/ (USA)
+- /On your *marks*, get set, go!/ (UK)
+
+[[./img/GBS.jpeg]]
+
+* /Dearly beloved we/...
+
+* /The concept dates back at least to/... 
+
+* /Eggs, milk,/...
+
+* Recognizing words in context and their associations
+
+- A large part of our COMMUNICATIVE INTELLIGENCE
+
+- We learn these patterns over time as we are exposed to language across context
+
+- And we reproduce and extend them when we come to communicate
+
+
+* Quick Overview: What is a GPT?
+
+- **G** enerative
+- **P** retrained
+- **T** ransformer
+
+** Quick Overview: What is a GPT?
+
+- Why is it important to understand something about how they work?
+
+#+ATTR_HTML: :width 50%
+[[./img/car.jpg]]
+
+- We drive cars and most of us have little to no understanding of how they work
+- And we don't need to in order to drive
+
+** Quick Overview: What is a GPT?
+
+#+ATTR_HTML: :width 50%
+[[./img/car.jpg]]
+
+- **BUT**... no one is claiming that cars are sentient, intelligent, self-determining, etc.
+
+- If they did, having an understanding of the mechanics of a car would
+  allow you to refute or strongly question these claims
+
+** Quick Overview: What is a GPT?
+  
+#+ATTR_REVEAL: :frag (appear)
+- A **MACHINE LEARNING** model
+- Specifically using **deep learning** (DL) version of a **NEURAL NETWORK**
+- In the past few years has become **THE** predominate kind of DL
+  model and taken over the field of *Artificial Intelligence* (AI)
+
+
+** Machine Learning
+
+- Using (large) amount of data to solve problems instead of using
+  human constructed rules and procedures (traditional programming)
+
+  
+- Find **FEATURES** in image that are most helpful in distinguishing
+  - between cat and dog
+  - or a Bulldog and a German shepherd
+
+** Machine Learning
+
+- For example, /What kind of dog is Rufus?/
+  #+ATTR_HTML: :width 50%
+  [[./img/rufus/rufus2.png]]
+
+
+
+** Neural Network
+
+- A general purpose ML model with interconnected nodes/neurons arranged in layers that
+  process input signals and pass them on to other nodes/neurons
+
+  
+- A deep neural network has multiple layers (or stages) between the INPUT and OUTPUT
+  - Through repeated exposure to data different features captured across layers
+  - Best features are discovered
+
+** Neural Network
+
+#+ATTR_HTML: :width 60%
+[[./img/neural_net.png]]
+
+*** Cat or dog?
+
+- Try a cat/dog classifier
+
+#+ATTR_HTML: :height 50%
+[[./img/qr/cat_or_dog_QR.png]]
+
+*** What kind of dog (or cat)?
+
+- Try a pet breed classifier
+
+#+ATTR_HTML: :height 50%
+[[./img/qr/breed_classifier_QR.png]]
+
+
+** Generative
+
+** Pretrained
+
+** Transformer
+
+- **ATTENTION**
+
+  
+
+* Some tools
+
